@@ -51,13 +51,12 @@
 	<script language="javascript" src="add.js"></script>
 </head>
 <body>
-	
 
 <div id="form">
 
 <div class="fish" id="fish"></div>
 <div class="fish" id="fish2"></div>
-
+<h2 align="center">Số nước tháng <?php echo $date["mon"]-1 ?></h2>	
 <form method="POST" action="add.php">
 
 <div class="formgroup" id="name-form">
@@ -94,6 +93,9 @@
 </div>
 	<input type="submit" name="add" value="Gửi số nước">
 </form>
+
+
+
 </div>
 </body>
 </html>
